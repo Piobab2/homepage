@@ -1,21 +1,24 @@
 body {
-    background: grey;
+    background: #fefefe;
+    color: #333;
 }
 
-.mainHeader {
-    color: tomato;
+.sectionHeader, .diaryHeader {
+    color: #1460aa;
 }
 
-.sectionHeader {
-    color: #1460AA;
+.header {
+    color: yellow;
 }
 
-.diaryHeader {
-    color:#142318;
-    font-size: 64px;
+.heading {
+    color: #00487C;;
 }
 
-p {
-    color: darkblue;
+.thirdHeader{
+    color: #0496FF;
 }
 
+.link {
+    color: #1A936F;
+}
