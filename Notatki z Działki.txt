@@ -1,0 +1,15 @@
+DOM - Document Object Model
+DOM to wyrenderowany w przeglądarce kod
+JS uwielbia DOM
+
+-------JS----
+const nazwa = document.querySelector('.selector') - pobiera element z selektora HTML
+const nazwa = document.querySelectorAll('.selector') pobiera wszystkie elemanty z selektora
+Wyświetlanie w konsoli:
+consol.log(nazwa) - wyświetla wszystkie wiersze
+consol.log(nazwa[0]) - wyświetla wiersz 0
+
+innerHTML
+consol.log(nazwa.innerHTML) - wyświetla samą treść bez opakowania
+nazwaZmiennejQuerySelector.innerHTML = 'treść' - Zmiana treści przy użyciu JS
+(BEM) - about__paragraph--js

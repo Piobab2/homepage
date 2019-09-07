@@ -10,54 +10,62 @@
 </head>
 
 <body>
-	<header>
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="Podstrony/podstrona.html">Podstrona</a>
+	<header class="navifarion">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="Podstrony/podstrona.html">Podstrona</a>
 	</header>
-	<main class="main">
+	<main id="top" class="main">
 		<header class="header">
 			<h1 class="heading">
 				Piotr Ludwik Bąbel - Strona domowa
 			</h1>
 		</header>
-		<section>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="paragraph">
-				Obecnie kucharzem w przyszłości Frontendowcem.
+		<section class="about">
+			<div class="box">Test</div>
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph">
+					<img src="Obrazy/Kudlaty-header.jpg" alt="Zdjecie z kudłatym" class="about__picture"/>
+				Obecnie kucharzem w przyszłości Frontendowcem. Bylylyl Bylylyll Byl Bylylylyl 
+				Bylylylyl Bylylylyl Bylylylyl Bylylylyl. Bylylylyl Bylylylyl
+				Bylylylyl Byl lylylyl Bylylylyl yl lyl. Bylylylyl Bylylylyl Bylylylyl
+				Bylylylyl Byl Bylylyl Bylylyl Byyl. lylyl Bylylylyl Bylyl Bylylylyl 
+				Bylylyl Bl Bylylylyl Byylyl.
 				<br>
-				<a class="link"href="#pamietniczek">Przejdź do pamiętniczka</a>
+				<a class="about__link"href="#pamietniczek">Przejdź do pamiętniczka</a>
+			</p>
+			<p class="about__paragraph about__paragraph--color about__paragraph--js">
+				Testuje modyfikator
 			</p>
 		</section>
-
-		<section id="pamietniczek">
-			<h2 class="diaryHeader">Pamiętniczek</h2>
-			<section>
-				<h3 class="thirdHeader">1 Czerwca 2019</h3>
-				<p>
+		<section class="diary" id="pamietniczek">
+			<h2 class="diary__header">Pamiętniczek</h2>
+			<section class="day">
+				<h3 class="day__header">1 Czerwca 2019</h3>
+				<p class="day__paragraph">
 					Uczę się wprowadzenia do HTML i CSS. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
 					sed elit
 					ut turpis facilisis malesuada. Quisque sit amet commodo nulla, eu iaculis arcu. Maecenas luctus
 					metus eu leo
 					feugiat rutrum.<br>
-					<a class="link" href="Podstrony/podstrona.html">Przejdz do dnia 1 Czerwca 2019</a>
+					<a class="day__link" href="Podstrony/podstrona.html">Przejdz do dnia 1 Czerwca 2019</a>
 				</p>
 			</section>
 
-			<section id="wpis-szkolenie">
-				<h3 class="thirdHeader">5 Czerwca 2019</h3>
-				<p class="paragraph">
+			<section class="day" id="wpis-szkolenie">
+				<h3 class="day__header">5 Czerwca 2019</h3>
+				<p class="day__paragraph">
 					Robię prace domową z II tygodnia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed
 					elit ut
 					turpis facilisis malesuada. Quisque sit amet commodo nulla, eu iaculis arcu. Maecenas luctus metus
 					eu leo
 					feugiat rutrum.
-					<a class="link" href="Podstrony/podstrona2.html">Przejdz do dnia 5 Czerwca 2019</a>
+					<a class="day__link" href="Podstrony/podstrona2.html">Przejdz do dnia 5 Czerwca 2019</a>
 				</p>
 			</section>
 
-			<section id="nagrywam-szkolenie">
-				<h3 class="thirdHeader">xxx</h3>
-				<p class="paragraph">
+			<section class="day" id="nagrywam-szkolenie">
+				<h3 class="day__header">xxx</h3>
+				<p class="day__paragraph">
 					.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis
 					malesuada.
 					Quisque sit amet commodo nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum. Lorem
@@ -65,13 +73,13 @@
 					dolor sit amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis malesuada. Quisque
 					sit amet
 					commodo nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum.
-					<a class="link" href="Podstrony/podstrona3.html">Przejdz do dnia xxx Czerwca 2019</a>
+					<a class="day__link" href="Podstrony/podstrona3.html">Przejdz do dnia xxx Czerwca 2019</a>
 				</p>
 			</section>
 
-			<section>
-				<h3 class="thirdHeader">xxx</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">xxx</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis
 					malesuada. Quisque
 					sit amet commodo nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum. Lorem ipsum
@@ -79,12 +87,12 @@
 					amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis malesuada. Quisque sit amet
 					commodo
 					nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum.
-					<a class="link" href="Podstrony/podstrona4.html">Przejdz do dnia xxx Czerwca 2019</a>
+					<a class="day__link" href="Podstrony/podstrona4.html">Przejdz do dnia xxx Czerwca 2019</a>
 				</p>
 			</section>
-			<section>
-				<h3 class="thirdHeader">xxx2</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">xxx2</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis
 					malesuada. Quisque
 					sit amet commodo nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum. Lorem ipsum
@@ -92,13 +100,14 @@
 					amet, consectetur adipiscing elit. Fusce sed elit ut turpis facilisis malesuada. Quisque sit amet
 					commodo
 					nulla, eu iaculis arcu. Maecenas luctus metus eu leo feugiat rutrum.
-					<a class="link" href="Podstrony/podstrona5.html">Przejdz do dnia xxx Czerwca 2019</a>
+					<a class="day__link" href="Podstrony/podstrona5.html">Przejdz do dnia xxx Czerwca 2019</a>
 				</p>
 			</section>
 
 		</section>
 	</main>
 	<footer>
+		<a href="#top" class="top">Na górę</a>
 		Strona stworzona przez Karaluszka
 	</footer>
 	<script src="main.js">
