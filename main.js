@@ -8,6 +8,9 @@ console.log(`Nazywam się ${name} i mam lat ${age} lat`);
 
 console.log('Witaj przybyszu');
 
+
+
+
 const about = document.querySelector('.about__paragraph--js');
 
 console.log(about.innerHTML);

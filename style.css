@@ -1,5 +1,6 @@
 body {
-    background: #fefefe;
+    background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
     color: #333;
 }
 
@@ -16,7 +17,27 @@ body {
     text-decoration: none;
 }
 
+.navigation {
+    
+}
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+}
+.navigation__list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
 
+.navigation__item {
+    padding: 0 10px;
+}
 
 .navigation__link {
     color: #1A936F;
@@ -53,15 +74,7 @@ body {
     text-decoration: none;
 }
 
-.navifarion {
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    box-sizing: border-box;
-    padding: 16px;
-    background: #fff;
-}
+
 
 .diary {
     clear: left;
@@ -111,11 +124,16 @@ img {
     font-size: 20px;
 }
 
+.day__header--sunday {
+    color: darkred;
+}
+
+.day__link {
+    color: #1A936F;
+}
+
 .day__paragraph {
     line-height: 24px;
     padding: 0;
     margin: 0;
-}
-.day__link {
-    color: #1A936F;
 }
